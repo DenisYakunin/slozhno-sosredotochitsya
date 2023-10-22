@@ -136,7 +136,7 @@
 
 .card-link {
   text-decoration: none;
-  text-shadow: 2px 1px 0 var(--text-shadow-color);
+  text-shadow: 2px 1px 0 var(--link-shadow-color);
 }
 
 .card-title-tiny {
@@ -246,7 +246,7 @@
 
 /* 768px <= display <= 1024px */
 
-@media (768px <=width <= 1024px) {
+@media (768px <= width < 1024px) {
   .header {
     margin-block-end: 60px;
     padding: 20px;
@@ -319,7 +319,7 @@
     object-position: center;
   }
   
-  .sunset{
+  .sunset {
     grid-area: sunset;
   }
 
@@ -346,7 +346,7 @@
 
 /* display > 1024px */
 
-@media (width > 1024px) {
+@media (width >= 1024px) {
   .header {
     margin-block-end: 60px;
     padding: 20px;
@@ -421,7 +421,7 @@
     object-position: center;
   }
   
-  .sunset{
+  .sunset {
     grid-area: sunset;
   }
 
