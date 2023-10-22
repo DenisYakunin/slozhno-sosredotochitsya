@@ -19,7 +19,7 @@
   --link-shadow-color: #ff8dcb;
 }
 
-.theme_light > .header > .header__rec {
+.theme_light .header__rec {
   display: none;
 }
 
