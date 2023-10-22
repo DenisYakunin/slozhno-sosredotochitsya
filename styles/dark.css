@@ -6,10 +6,12 @@
 
 .page.theme_dark {
   --accent-color: #ff0070;
+  --corners-color: #ff0070;
   --button-color: #ff0070;
+  --hover-button-color: #FF007066;
   --background-color: #000028;
-  --background-image: url('/images/cover-image-dark.png');
-  --text-font-family: 'IBM Plex Mono', sans-serif;
+  --background-image: url('../images/cover-image-dark.png');
+  --text-font-family: 'IBM Plex Mono', monospace;
   --text-main-color: #f1b2ce;
   --text-subtitle-color: #000028;
   --text-title-color: #ff0070;
