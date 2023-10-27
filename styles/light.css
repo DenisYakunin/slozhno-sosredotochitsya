@@ -19,10 +19,6 @@
   --link-shadow-color: #ff8dcb;
 }
 
-.theme_light .header__rec {
-  display: none;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
@@ -37,5 +33,9 @@
     --text-title-color: #353430;
     --text-first-title-color: #ffc2e6;
     --link-shadow-color: #ff8dcb;
+    }
+    
+    .header__rec {
+      display: none;
     }
   }
