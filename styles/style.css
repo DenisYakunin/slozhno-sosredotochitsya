@@ -130,19 +130,15 @@
 
 /* sections */
 
-
 .main {
   padding: 0 20px;
-}
-
-.section-container {
-  margin-bottom: 80px;
 }
 
 .section-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
+  margin-bottom: 80px;
 }
 
 .section-with-few-columns {
